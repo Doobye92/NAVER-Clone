@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <script src="https://kit.fontawesome.com/1b0d808d4b.js" crossorigin="anonymous"></script>
+        <title>NAVER</title>
+    </head>
+    <body>
+        <div class="top-btn">
+            <a href="#header"><i class="fas fa-long-arrow-alt-up"></i></a>
+        </div>
+        <header id="header">
+            <div class="header__top">
+                <h1 class="header__title">
+                    <a href="/1. NAVER/index.html"><img src="img/네이버.png" alt="네이버 로고입니다." /></a>
+                </h1>
+
+                <nav class="header__sitemap sitemap">
+                    <a href="https://help.naver.com/support/contents/contents.help?serviceNo=1074&categoryNo=16690" target="_blank" class="sitemap__link--naver"
+                        ><span>네이버를 시작페이지로<i class="fas fa-chevron-right"></i></span
+                    ></a>
+                    <div class="sitemap-line"></div>
+                    <a href="https://jr.naver.com/" target="_blank" class="sitemap__link--junior"><img src="img/쥬니어네이버.png" alt="쥬니어네이버 바로가기" /></a>
+                    <a href="https://happybean.naver.com/" target="_blank" class="sitemap__link--happybin"><img src="img/해피빈.png" alt="해피빈 바로가기" /></a>
+                </nav>
+
+                <form action="" method="POST" name="검색폼" class="header__form form">
+                    <div class="form--wrap">
+                        <input type="text" class="form__search" />
+                        <button type="submit" class="form__submit">
+                            <span class="text-hidden">검색</span>
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="header__bottom">
+                <nav class="header__nav nav">
+                    <h2 class="text-hidden">네이버 네비게이션 메뉴</h2>
+                    <div class="header__nav--wrap">
+                        <ul class="nav__fix-list">
+                            <li class="fix-list__item">
+                                <a href="#a"><i class="fas fa-envelope-open-text"></i>메일</a>
+                            </li>
+                            <li class="fix-list__item"><a href="#a">카페</a></li>
+                            <li class="fix-list__item"><a href="#a">블로그</a></li>
+                            <li class="fix-list__item"><a href="#a">지식iN</a></li>
+                            <li class="fix-list__item"><a href="#a">쇼핑</a></li>
+                            <li class="fix-list__item"><a href="#a">Pay</a></li>
+                            <li class="fix-list__item">
+                                <a href="#a"><i class="fas fa-play"></i>TV</a>
+                            </li>
+                        </ul>
+                        <ul class="nav__customize-list">
+                            <li class="customize-list__item"><a href="#a">사전</a></li>
+                            <li class="customize-list__item"><a href="#a">뉴스</a></li>
+                            <li class="customize-list__item"><a href="#a">증권</a></li>
+                            <li class="customize-list__item"><a href="#a">부동산</a></li>
+                            <li class="customize-list__item">
+                                <a href="#a">지도</a>
+                            </li>
+                            <li class="customize-list__item"><a href="#a">영화</a></li>
+                            <li class="customize-list__item"><a href="#a">뮤직</a></li>
+                            <li class="customize-list__item"><a href="#a">책</a></li>
+                            <li class="customize-list__item"><a href="#a">웹툰</a></li>
+                        </ul>
+
+                        <a href="#a" class="btn__more">더보기<i class="fas fa-chevron-down"></i></a>
+
+                        <div class="header__keyward keyward">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <a href="#a" class="keyward__text">검색어 필터 설정이 필요합니다<i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section id="container">
+            <!-- 왼쪽 영역 -->
+            <div id="container--left">
+                <!-- event banner 영역 -->
+                <figure class="container__banner">
+                    <h2 class="text-hidden">이벤트 배너</h2>
+                    <img src="img/광고배너.png" alt="원더브라몰 4주년 기념 이벤트 배너" />
+                    <figcaption class="text-hidden">
+                        원더브라몰 4주년 기념으로 오후2시, 오후 3시까지 각 제품을 균일가 400원에 판매합니다.
+                    </figcaption>
+                </figure>
+
+                <!-- news-stand 영역 -->
+                <article class="news-stand">
+                    <h2 class="text-hidden">뉴스 스탠드</h2>
+                    <div class="news-stand__header">
+                        <div class="issue--left">
+                            <h2 class="text-hidden">당일 이슈 기사</h2>
+                            <a href="https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y" class="press--link"
+                                >연합뉴스<i class="fas fa-chevron-right"></i
+                            ></a>
+                            <a href="#a" class="rolling--link">내일 고3, 중3부터 사상 첫 온라인 개학 ··· 인프라 불안</a>
+                        </div>
+                        <div class="link--right">
+                            <a href="#a" class="newshome--link">네이버뉴스</a>
+                            <a href="#a" class="dot">·</a>
+                            <a href="#a" class="entertainment--link">연예</a>
+                            <a href="#a" class="sport--link">스포츠</a>
+                            <a href="#a" class="vote--link">총선</a>
+                        </div>
+                    </div>
+                    <div class="news-stand__title">
+                        <div class="news-stand__link">
+                            <a href="https://newsstand.naver.com/" class="icon__link"><i class="fas fa-newspaper fa-lg"></i></a>
+                            <a href="https://newsstand.naver.com/" target="_blank" class="text__link"> 뉴스스탠드<i class="fas fa-chevron-right"></i></a>
+                        </div>
+
+                        <div class="news-stand__title--group">
+                            <a href="#" class="news-stand__media-link">구독한 언론사</a>
+                            <a href="#">·</a>
+                            <a href="#" class="news-stand__media-link link-on">전체언론사</a>
+                        </div>
+                        <div class="news-stand__btn">
+                            <a href="#" class="news-stand__btn--article"><i class="fas fa-list"></i></a>
+                            <a href="#" class="news-stand__btn--media"><i class="fas fa-th-large"></i></a>
+                            <a href="#" class="news-stand__btn--setting"><i class="fas fa-cog"></i></a>
+                        </div>
+                    </div>
+                    <div class="news-stand__view-press view-press">
+                        <a href="#" class="view-press__btn--left btn-total">
+                            <i class="fas fa-chevron-left"> <span class="text-hidden">이전 버튼</span></i></a
+                        >
+                        <a href="#" class="view-press__btn--right btn-total"
+                            ><i class="fas fa-chevron-right"><span class="text-hidden">다음 버튼</span></i></a
+                        >
+                        <div class="view-press__group">
+                            <div class="view-press__group--line">
+                                <div class="group-line--horizontal"></div>
+                                <div class="group-line--horizontal"></div>
+                                <div class="group-line--horizontal"></div>
+                                <div class="group-line--horizontal"></div>
+                                <div class="group-line--horizontal"></div>
+                                <div class="group-line--vertical"></div>
+                                <div class="group-line--vertical"></div>
+                                <div class="group-line--vertical"></div>
+                                <div class="group-line--vertical"></div>
+                                <div class="group-line--vertical"></div>
+                                <div class="group-line--vertical"></div>
+                                <div class="group-line--vertical"></div>
+                            </div>
+                            <div class="view-press__group--one">
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/009.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/006.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/011.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/029.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/092.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/073.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/327.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/047.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/117.png" class="view-press__item--link" />
+
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/up/2019/1029/nsd164628626.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/052.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/215.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/055.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/015.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/079.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/up/2019/1022/nsd101526780.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/980.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/922.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/941.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/953.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/925.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/984.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/040.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                                <div class="view-press__item">
+                                    <img src="https://s.pstatic.net/static/newsstand/2019/logo/364.png" class="view-press__item--link" />
+                                    <div class="view-press__hover-box">
+                                        <a href="#" class="view-press__item--subscribe">구독</a>
+                                        <a href="#" class="view-press__item--article-pop">기사보기</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- today-post 영역 -->
+                <article class="today-post">
+                    <h2 class="text-hidden">
+                        오늘 읽을만한 글 - 주제별로 분류된 다양한 글 모음입니다.
+                    </h2>
+                    <div class="today-post__title">
+                        <div class="header-area">
+                            <h3 class="today-post__title--header">
+                                오늘 읽을만한 글
+                            </h3>
+                            <span class="today-post__title--desc">주제별로 분류된 다양한 글 모음</span>
+                        </div>
+                        <div class="info-area">
+                            <span class="today-post__info--desc"><b>2,170</b>개의 글</span>
+                            <a href="#" class="today-post__info--set"><i class="fas fa-cog"></i>관심주제 설정</a>
+                        </div>
+                    </div>
+                    <div class="today-post__category category">
+                        <div class="category__group--one">
+                            <a href="#" class="category__btn--left btn-total">
+                                <i class="fas fa-chevron-left"> <span class="text-hidden">이전 버튼</span></i></a
+                            >
+                            <a href="#" class="category__btn--right btn-total"
+                                ><i class="fas fa-chevron-right"><span class="text-hidden">다음 버튼</span></i></a
+                            >
+                            <div class="category__group--line">
+                                <div class="category__line--horizontal"></div>
+                                <div class="category__line--horizontal"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                                <div class="category__line--vertical"></div>
+                            </div>
+                            <ul class="category__list">
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">비즈니스</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">법률</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">패션뷰티</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">동물공감</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">디자인</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">중국</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">공연전시</a>
+                                </li>
+                                <li class="category__list-item">
+                                    <a href="#a" class="list-item__link">FARM</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="today-post__content-container content-container">
+                        <div class="content-container__part">
+                            <div class="content-container__part--left">
+                                <div class="content-container__item">
+                                    <div class="img-warp__left">
+                                        <img src="img/dummy.jpg" alt="" class="item__img--b" />
+                                    </div>
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것.
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-container__part--right">
+                                <div class="content-container__item">
+                                    <div class="img-warp__right">
+                                        <img src="img/dummy.jpg" alt="" class="item__img--s" />
+                                    </div>
+                                    <div class="content-container__txtbox">
+                                        <p class="item__cetegory">디자인</p>
+                                        <h3 class="item__title">
+                                            점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                        </h3>
+                                        <p class="item__date">
+                                            알렛츠 ALLETS &middot; 3일 전
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="content-container__item">
+                                    <div class="img-warp__right">
+                                        <img src="img/dummy.jpg" alt="" class="item__img--s" />
+                                    </div>
+                                    <div class="content-container__txtbox">
+                                        <p class="item__cetegory">디자인</p>
+                                        <h3 class="item__title">
+                                            점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                        </h3>
+                                        <p class="item__date">
+                                            알렛츠 ALLETS &middot; 3일 전
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="content-container__item">
+                                    <div class="img-warp__right">
+                                        <img src="img/dummy.jpg" alt="" class="item__img--s" />
+                                    </div>
+                                    <div class="content-container__txtbox">
+                                        <p class="item__cetegory">디자인</p>
+                                        <h3 class="item__title">
+                                            점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                        </h3>
+                                        <p class="item__date">
+                                            알렛츠 ALLETS &middot; 3일 전
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-container__wrap">
+                            <div class="item-group__one">
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="item-group__two">
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                                <div class="content-container__item">
+                                    <img src="img/dummy.jpg" alt="" class="item__img" />
+                                    <p class="item__cetegory">디자인</p>
+                                    <h3 class="item__title">
+                                        점점 작아지는 듯? 올해도 유행한다는 명품 미니백
+                                    </h3>
+                                    <p class="item__text">
+                                        귀엽고 우아하게! 올해도 미니백의 인기는 계속 이어질 예정! 작년과 다른 점이 있다면 미니백의 사이즈가 더욱더 작아졌다는 것. 립스틱 하나 겨우 들어갈 정..
+                                    </p>
+                                    <p class="item__date">
+                                        알렛츠 ALLETS &middot; 3일 전
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container__more">
+                            <p class="content-container__info">
+                                디자인판의 컨텐츠는 디자인프래스(주)에 의해 운영&middot;편집 됩니다.
+                            </p>
+                            <div class="more__wrap">
+                                <button class="content-container__more-btn">+</button>
+                                <span>새로운 글 더보기</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- 오른쪽 영역 -->
+            <div id="container--right">
+                <aside>
+                    <!-- login 영역 -->
+                    <section class="login">
+                        <h3 class="text-hidden">네이버 로그인 영역입니다.</h3>
+                        <p class="login__text">
+                            네이버를 더 안전하고 편리하게 이용하세요.
+                        </p>
+                        <button class="login__link-btn">
+                            <img src="img/login로고.png" alt="" />
+                            로그인
+                        </button>
+                        <div class="login__lef">
+                            <i class="fas fa-lock"></i>
+                            <a href="#a" class="l ogin__find-id">아이디</a>
+                            <a href="#a" class="logi n__find-password">비밀번호찾기</a>
+                        </div>
+                        <div class="login__right">
+                            <i class="fas fa-user-alt"></i>
+                            <a href="#a" class="login__sign">회원가입</a>
+                        </div>
+                    </section>
+
+                    <!-- Tv 영역 -->
+                    <section class="tv">
+                        <div class="tv__content-box">
+                            <h3 class="tv__title">환율</h3>
+                            <img src="img/am.png" alt="" />
+                            <p class="tv__rolling-text">USD<span>1,235.20</span></p>
+                            <span class="tv__rolling-text--rate"><i class="fas fa-caret-up"></i>4.70 + 0.38%</span>
+                        </div>
+                        <div class="tv__btn-box">
+                            <button class="tv__btn"><i class="fas fa-chevron-left"></i></button>
+                            <button class="tv__btn"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </section>
+
+                    <!-- advertise 영역 -->
+                    <figure class="advertise">
+                        <h3 class="text-hidden">광고 배너</h3>
+                        <img src="img/광고배너2.png" alt="형돈이와 대준이, 네이버 놈들이 됐다" />
+                        <figcaption class="text-hidden">
+                            네이버 앱에서 매주 월, 수, 금 낮2시
+                        </figcaption>
+                    </figure>
+
+                    <!-- 쇼핑 영역 -->
+                    <section class="shopping">
+                        <h2 class="text-hidden">쇼핑 영역입니다.</h2>
+                        <div class="title-area">
+                            <h3 class="shopping__title">쇼핑</h3>
+                            <div class="shopping__category">
+                                <a href="#b" class="shopping__category--link">상품</a>
+                                <a href="#b" class="shopping__category--link">쇼핑몰</a>
+                                <a href="#b" class="shopping__category--link shopping-on">MEN</a>
+                            </div>
+                        </div>
+                        <div class="shopping__mall">
+                            <div class="shopping__mall--list">
+                                <a href="#b">G마켓</a>
+                                <span class="mall-dot"></span>
+                                <a href="#b">옥션</a>
+                                <span class="mall-dot"></span>
+                                <a href="#b"><strong>11번가</strong></a>
+                                <span class="mall-dot"></span>
+                                <a href="#b">위메프</a>
+                                <span class="mall-dot"></span>
+                                <a href="#b"><strong>티몬</strong></a>
+                                <span class="mall-dot"></span>
+                                <a href="#b">이마트몰</a>
+                            </div>
+                            <div class="shopping__mall--list">
+                                <a href="#b">올리브영</a>
+                                <span class="mall-dot"></span>
+                                <a href="#b">GS샵</a>
+                                <span class="mall-dot"></span>
+                                <a href="#b"><strong>롯데i몰</strong></a>
+                                <span class="mall-dot"></span>
+                                <a href="#b">CJmall</a>
+                                <span class="mall-dot"></span>
+                                <a href="#b">신세계몰</a>
+                                <span class="mall-dot"></span>
+                                <a href="#b"><strong>롯데ON</strong></a>
+                            </div>
+                        </div>
+                        <div class="shopping__btn">
+                            <span><strong>1</strong> / 6</span>
+                            <button class="shopping__btn--left"><i class="fas fa-angle-left"></i></button>
+                            <button class="shopping__btn--right"><i class="fas fa-angle-right"></i></button>
+                        </div>
+                        <div class="shopping__item-list">
+                            <div class="list__group--one">
+                                <div class="list__group--item">
+                                    <img src="img/상품1.png" alt="나이키 신발" />
+                                    <p class="item-text">나이키BEST모음 단하루 초특가!</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품2.png" alt="샤워기" />
+                                    <p class="item-text">더 강력해진 수압 남자의 샤워기~</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품3.png" alt="등받이 의자" />
+                                    <p class="item-text">이거 필요했지? 2+1 지금뿐</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품4.png" alt="카드 지갑" />
+                                    <p class="item-text">누르면 한번에 쓱 다들 깜짝놀라</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품5.png" alt="내셔널 반판티" />
+                                    <p class="item-text">내셔널~ 반팔티 20% 즉시할인</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품6.png" alt="남성 팬츠" />
+                                    <p class="item-text">파크랜드 봄팬츠 특가전 7천원~</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품7.png" alt="목베개" />
+                                    <p class="item-text">꿀잠베개 1+1! 한정수량 71%↓</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품8.png" alt="안경" />
+                                    <p class="item-text">형~ 잘생겨보인대 사장님 천재같아</p>
+                                </div>
+                                <div class="list__group--item">
+                                    <img src="img/상품9.png" alt="휴대폰 거치대" />
+                                    <p class="item-text">이거 보여주니깐 다들 기립박수쳐</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopping__ad">
+                            <h2 class="shopping__ad--title">PLAY · FUN</h2>
+                            <div class="shopping__btn">
+                                <span><strong>1</strong> / 4</span>
+                                <button class="shopping__btn--left"><i class="fas fa-angle-left"></i></button>
+                                <button class="shopping__btn--right"><i class="fas fa-angle-right"></i></button>
+                            </div>
+                            <div class="shopping__ad--item">
+                                <img src="img/광고상품1.png" alt="엠도씨" />
+                                <div class="item__content">
+                                    <h3>엠도씨</h3>
+                                    <p>꿉꿉하고 축축한 그곳</p>
+                                    <p>건강하고 청결&시원하게!</p>
+                                </div>
+                            </div>
+                            <div class="shopping__ad--item">
+                                <img src="img/광고상품2.png" alt="스포츠다이렉트" />
+                                <div class="item__content">
+                                    <h3>스포츠다이렉트</h3>
+                                    <p>영국직수입 아웃도어부츠</p>
+                                    <p>시즌한정 파격특가 SALE</p>
+                                </div>
+                            </div>
+                            <div class="shopping__ad--item">
+                                <img src="img/광고상품3.png" alt="폰뿌" />
+                                <div class="item__content">
+                                    <h3>폰뿌</h3>
+                                    <p>이게 대체 뭐길래?</p>
+                                    <p>만든사람 상줘야하나?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="footer__container">
+                <div class="footer__content">
+                    <article class="footer__content--item">
+                        <img src="img/온스테이지.png" alt="온스테이지 2.0" />
+                        <div class="item__txt">
+                            <h2 class="counsel__title">온스테이지 2.0</h2>
+                            <h3 class="councel__sub-title">우자앤쉐인</h3>
+                            <p>일렉트로닉 팝의 기대주</p>
+                            <p>UZA&SHANE</p>
+                        </div>
+                    </article>
+                    <article class="footer__content--item">
+                        <img src="img/소상공인.png" alt="네이버 해피빈 펀딩" />
+                        <div class="item__txt">
+                            <h2 class="counsel__title">네이버 해피빈 펀딩</h2>
+                            <h3 class="councel__sub-title">소상공인들에게 응원을</h3>
+                            <p>코로나19로 위기에 처한</p>
+                            <p>소상공인을 돕는 먹거리</p>
+                        </div>
+                    </article>
+                    <article class="footer__content--item">
+                        <img src="img/소상공인.png" alt="네이버 해피빈 펀딩" />
+                        <div class="item__txt">
+                            <h2 class="counsel__title">네이버 해피빈 펀딩</h2>
+                            <h3 class="councel__sub-title">소상공인들에게 응원을</h3>
+                            <p>코로나19로 위기에 처한</p>
+                            <p>소상공인을 돕는 먹거리</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="footer__notice">
+                    <h2 class="notice__title">공지사항</h2>
+                    <a href="#a" class="service-link">서비스 전체보기<i class="fas fa-chevron-right"></i></a>
+
+                    <div class="notice_wrap">
+                        <ul class="notice__list">
+                            <li class="notice__list--item">
+                                Creators
+                                <ul>
+                                    <li>크리에이터</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>스몰비즈니스</li>
+                                </ul>
+                            </li>
+                            <li class="notice__list--item">
+                                Partners
+                                <ul>
+                                    <li>비즈니스 · 광고</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>스토어 개설</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>지역업체 등록</li>
+                                </ul>
+                            </li>
+                            <li class="notice__list--item">
+                                Developers
+                                <ul>
+                                    <li>네이버 개발자 센터</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>오픈 API</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>오픈소스</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>네이버 D2</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>네이버 D2SF</li>
+                                    <div class="notice__li--line"></div>
+                                    <li>네이버 랩스</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div class="footer__weblink">
+                            <div class="footer__item--whale">
+                                <div class="footer__item--txt">
+                                    <h3 class="item__title">웨일 브라우저</h3>
+                                    <a href="#2" class="item__link">다운받기</a>
+                                </div>
+                                <img src="img/웨일이미지.png" alt="웨일 로고" />
+                            </div>
+                            <div class="footer__item--flower">
+                                <div class="footer__item--txt">
+                                    <h3 class="item__title">프로젝트 꽃</h3>
+                                    <a href="#2" class="item__link">바로가기</a>
+                                </div>
+                                <img src="img/꽃.png" alt="프로젝트 꽃 로고" />
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="footer__list">
+                        <li class="footer__list--item">회사소개</li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item">인재채용</li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item">제휴제안</li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item">이용약관</li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item"><strong>개인정보처리방침</strong></li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item">청소년보호정책</li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item">네이버정책</li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item">고객센터</li>
+                        <div class="footer__li--line"></div>
+                        <li class="footer__list--item"><strong>&copy; NAVER Corp.</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- 
+            <h2 class="text-hidden"></h2>
+         -->
+    </body>
+</html>

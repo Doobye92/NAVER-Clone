@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            input,
+            .fo {
+                display: block;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 200px;
+                margin: 20px 0;
+                background-color: rgb(145, 145, 145);
+            }
+            .case1:focus {
+                background-color: thistle;
+            }
+            .case2:focus {
+                outline: 0;
+                background-color: teal;
+            }
+            .case3:focus-within {
+                outline: 0;
+                background-color: teal;
+            }
+            .case4son {
+                width: 50px;
+                height: 50px;
+                background-color: violet;
+            }
+            .case4:focus-within {
+                background-color: tomato;
+            }
+            .case5 {
+                background-color: white;
+                border: 1px solid black;
+            }
+            .case5 a {
+                /* 박스 전체 영역을 클릭되는 영역으로 만들기 위한 속성 */
+                display: inline-block;
+                width: 200px;
+                height: 200px;
+                /* a태그를 가로세로 중앙정렬 시키는 속성인데 a태그에 주던 상위 태그에 주던 무조건 정렬시키자 */
+                line-height: 200px;
+                text-align: center;
+            }
+            .case5:focus-within a {
+                color: white;
+                background-color: rgb(54, 54, 23);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>focus-within은 정확히 어떤 속성인가?</h1>
+        <p>원하는 것 : focus-within속성의 작동 방식 / JS없이 클릭 했을 때 css스타일 변경 이벤트 구현 (클릭이 끝나면 다시 복귀)</p>
+        <input type="text" />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <a class="fo" href="#">포커스</a>
+        <p class="text">focue는 a태그와 input태그, textarea태그 등등에 붙는다.</p>
+
+        <hr />
+
+        <p>div태그 자체에 포커스를 줄 수는 없을까?</p>
+        <div class="case1">focus속성이 적용 안됨</div>
+        <div class="case2" tabindex="0">div태그에 tabindex속성을 사용해 focus(tab과 클릭) 적용됨</div>
+        <p>>>>tabindex속성은 논리적 마크업 구조에서 웬만하면 사용하지 않는다.</p>
+        <p>>>>불가피하게 시각적인 디자인을 위해 논리적이지 않게 만들 때 사용한다</p>
+        <p>>>>파란색 아웃라인은 outline: 0; 속성을 필요한 부분에 주어 없앨 수 있다</p>
+        <div class="case3">tabindex속성 없이 focus-within속성을 사용해 tabindex속성과 같은 효과를 낸다.</div>
+        <p>하지만 작동하지 않는다. 왜? 하위요소와 관련된 속성이기 때문이다.</p>
+        <div class="case4"><a href="#a">ddd</a></div>
+        <p>그렇다 자식 요소가 포커스되면 focus-within이 적용된 부모 요소가 변경된다(자식 요소가 포커스 되는 놈이 아니면 적용 안됨)</p>
+        <p>이를 통해 클릭했을 때 요소의 배경과 글자색이 바뀌고, 클릭이 떠날 때까지 유지할 수 있는 스타일을 만들 수 있게 된다.</p>
+        <div class="case5"><a href="#b">aaa</a></div>
+        <p>내가 원하는 것은 어떤 메뉴를 클릭했을 때 배경색과 글자색이 바뀌는 것이다. 그래서 부모 요소는 부모요소 그대로의 배경색을 가지면서 자식 요소인 a태그의 스타일만 바뀌게 하면 된다.</p>
+        <h3>신기하게도 자식 요소가 포커스 됐을 때 자식 요소의 flex가 풀리는데 a요소를 공통으로 정렬해주던 꼭 정렬해주자</h3>
+    </body>
+</html>
